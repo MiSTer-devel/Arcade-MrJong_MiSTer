@@ -1,11 +1,11 @@
 <misterromdescription>
-	<name>BlockBuster</name>
-	<setname>blkbustr</setname>
+	<name>Mr.Jong</name>
+	<setname>mrjong</setname>
 	<homebrew>no</homebrew>
 	<bootleg>no</bootleg>
 	<series></series>
 	<year>1983</year>
-	<manufacturer>Kiwako (ECI license)</manufacturer>
+	<manufacturer>Kiwako</manufacturer>
 	<category>Puzzle</category>
 	<rbf>mrjong</rbf>
 	<about></about>
@@ -25,18 +25,18 @@
 		<dip bits="4,5" name="Lives" ids="6,4,5,3"/>
 		<dip bits="6,7" name="Coin" ids="1c/1c,1c/2c,1c/3c,2c/1c"/>
 	</switches>
-	<rom index="0" zip="blkbustr.zip|mrjong.zip" md5="none">
+	<rom index="0" zip="mrjong.zip" md5="none">
 		<!-- main cpu -->
-		<part name="6a.bin" crc="9e4b426c"/>
-		<part name="c2.a7" crc="75070978"/>
-		<part name="8a.bin" crc="0e803777"/>
-		<part name="c4.a8" crc="c7f5a247"/>
+		<part name="mj00" crc="d211aed3"/>
+		<part name="mj01" crc="49a9ca7e"/>
+		<part name="mj02" crc="4b50ae6a"/>
+		<part name="mj03" crc="2c375a17"/>
 		<!-- gfx -->
-		<part name="4h.bin" crc="67dd6c19"/>
-		<part name="5h.bin" crc="50fba1d4"/>
+		<part name="mj20" crc="7eb1d381"/>
+		<part name="mj21" crc="1ea99dab"/>
 		<!-- prom -->
-		<part name="clr.j7"  crc="ee1cf1d5"/>
-		<part name="clr.g5"  crc="bcb1e2e3"/>
+		<part name="mj61"  crc="a85e9b27"/>
+		<part name="mj60"  crc="dd2b304f"/>
 	</rom>
 	<rom index="1"></rom>
 	<rom index="2"></rom>
